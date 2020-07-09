@@ -1,0 +1,85 @@
+body{
+	background: #fff;
+}
+.cart{
+	margin: 100px 0;
+	background-color: #dcdae6;;
+	padding: 60px 0;
+	border-radius: 10px;
+}
+.total-price{
+	padding-bottom: 15px;
+}
+.cart-item{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+}
+.center-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cart-item img{
+	width: 115px;
+}
+.cart-item h5{
+    padding: 0 45px;
+}
+.cart-item .remove-item{
+	width: 25px!important;
+}
+.btn-outline-danger {
+    color: #dc3545;
+    background-color: #f3cece;
+    background-image: none;
+	border-color: #dc3545;
+	margin-left: 10px;
+}
+.btn-outline-success {
+    color: #28a745;
+    background-color: #a1f3b4;
+    background-image: none;
+	border-color: #28a745;
+	margin-left: 10px;
+	font-weight: 700px;
+}
+.cart-item .form-control{
+	background-color:#c3e3e6;
+	border: none;
+    width: 65px;
+    border-radius: 10px!important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.input-group{
+	width: unset;
+}
+.status{
+	text-align: right;
+}
+.check-out{
+    float: right;
+    padding: 10px 30px;
+	font-size: 19px;
+	background-color: #2FBE70;
+	border: none;
+}
+#thankyou-section{
+	display: none;
+}
+#input-value{
+	margin-left: 10px;
+	width: 52px;
+}
+#input-value-2{
+	margin-left: 10px;
+	width: 52px;	
+}
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    font-weight: 700;
+}
